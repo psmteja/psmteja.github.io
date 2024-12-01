@@ -5,21 +5,70 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Left Sidebar Layout with Separate Pages</title>
     <link rel="stylesheet" href="styles.css">
+	<style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 20px;
+            line-height: 1.6;
+        }
+        h1 {
+            text-align: center;
+        }
+        ul {
+            list-style-type: none;
+            padding: 0;
+        }
+        li {
+            margin-bottom: 15px;
+            border: 1px solid #ddd;
+            padding: 1px;
+            border-radius: 5px;
+        }
+        .title {
+            font-weight: bold;
+        }
+        .authors, .journal, .year, .summary {
+            margin: 5px 0;
+        }
+        .missing {
+            color: #ff0000; /* Red color for missing aspects */
+            font-weight: bold;
+        }
+        .missing_new ul {
+            list-style-type: disc; /* Bullet points for missing aspects */
+            
+        }
+		 .missing_new li {
+            border: none; /* No border for sidebar items */
+            margin: 1px 0; /* Slight margin for sidebar items */
+			
+        }
+		.content ul {
+            list-style-type: disc; /* Simple bullet points for sidebar */
+            padding-left: 20px; /* Indentation for sidebar bullets */
+            margin: 0; /* Remove default margin */
+        }
+		 .content li {
+            border: none; /* No border for sidebar items */
+            margin: 15px 0; /* Slight margin for sidebar items */
+        }
+    </style>
 </head>
 <body>
     <div class="container">
         <div class="sidebar">
             <h2>Research Notes</h2>
             <ul>
-                <li><a href="section1.html">Section 1</a></li>
-                <li><a href="section2.html">Section 2</a></li>
-                <li><a href="section3.html">Section 3</a></li>
-                <li><a href="section4.html">Section 4</a></li>
+               <li><a href="section1.html">Related Works</a></li>
+                <li><a href="challenges.html">Key Challenges</a></li>
+				<li><a href="rq.html">Research Questions</a></li>
+                <li><a href="">Wireless Technologies</a></li>
+                <li><a href="">Fedearted Learning</a></li>
             </ul>
         </div>
         <div class="content">
             <h1>Welcome</h1>
-            <p>Please select a section from the left panel to view content.</p>
+            <p>I'm Sai Puppala and this is my research notes publications.</p>
         </div>
     </div>
 </body>
