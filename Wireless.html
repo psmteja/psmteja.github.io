@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Research Papers on Federated Learning</title>
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 20px;
+            line-height: 1.6;
+        }
+        h1 {
+            text-align: center;
+        }
+        ul {
+            list-style-type: none;
+            padding: 0;
+        }
+        li {
+            margin-bottom: 15px;
+            border: 1px solid #ddd;
+            padding: 1px;
+            border-radius: 5px;
+        }
+        .title {
+            font-weight: bold;
+        }
+        .authors, .journal, .year, .summary {
+            margin: 5px 0;
+        }
+        .missing {
+            color: #ff0000; /* Red color for missing aspects */
+            font-weight: bold;
+        }
+        .missing_new ul {
+            list-style-type: disc; /* Bullet points for missing aspects */
+            
+        }
+		 .missing_new li {
+            border: none; /* No border for sidebar items */
+            margin: 1px 0; /* Slight margin for sidebar items */
+			
+        }
+		.content ul {
+            list-style-type: disc; /* Simple bullet points for sidebar */
+            padding-left: 20px; /* Indentation for sidebar bullets */
+            margin: 0; /* Remove default margin */
+        }
+		 .content li {
+            border: none; /* No border for sidebar items */
+            margin: 15px 0; /* Slight margin for sidebar items */
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="sidebar">
+            <h2>Research Notes</h2>
+            <ul>
+               <li><a href="rw.html">Related Works</a></li>
+                <li><a href="challenges.html">Key Challenges</a></li>
+				<li><a href="rq.html">Research Questions</a></li>
+                <li><a href="wireless.html.html">Wireless Technologies</a></li>
+                <li><a href="">Fedearted Learning</a></li>
+            </ul>
+        </div>
+        <div class="content">
+            <h1>Wirless Networks on Federated Learning with IoT</h1>
+            <ul>
+                <li>
+                    <div class="missing">Wirless Networks:</div>
+                    <ul class = "missing_new">
+						<li><b>Wi-Fi:</b> Wi-Fi networks are commonly used in IoT environments, especially in urban areas and smart homes. Devices can leverage Wi-Fi to communicate model updates to a central server or between devices, facilitating the training process without transferring sensitive data. </li>
+						<li><b>Cellular Networks:</b> These networks provide wide-area coverage and high data rates, making them suitable for federated learning in mobile and remote IoT devices. The low latency and high bandwidth of 5G can greatly enhance the efficiency of federated learning by allowing more frequent updates and faster convergence of models.</li>
+						<li><b>Bluetooth:</b> While Bluetooth has a limited range, it can be used for federated learning in scenarios where devices are in close proximity. This is particularly relevant for wearable devices and smart home applications, where data privacy is essential.</li>
+						<li><b>Zigbee:</b> Zigbee's low-power, low-data-rate capabilities make it suitable for resource-constrained devices in home automation or industrial IoT settings. Devices can participate in federated learning by sending model updates rather than raw data, conserving bandwidth and energy.</li>
+						<li><b>LoRa (Long Range):</b> LoRa is ideal for remote IoT devices that operate on minimal power and require long-range communication. It can be used in applications like smart agriculture or environmental monitoring, where devices send aggregated model updates to a central server.</li>
+						<li><b>NFC:</b> While NFC is primarily used for very short-range communication, it can enable secure exchanges of model parameters in scenarios like payment systems or secure access control, where devices need to collaborate without sharing sensitive data.</li>
+						<li><b>Mesh Networking:</b> Mesh networks can enhance the scalability of federated learning by allowing devices to communicate with each other directly. This is particularly useful in large IoT deployments, where devices can share model updates and collaborate without relying on a centralized server.</li>
+						<li><b>RFID:</b> While not typically used for data transmission, RFID can support federated learning in scenarios where tracking and identifying devices is essential. Integrating RFID with other wireless technologies can facilitate data aggregation and model updates.</li>
+					</ul>
+
+                </li>
+				
+              
+
+            </ul>
+        </div>
+    </div>
+</body>
+</html>
